@@ -1,0 +1,102 @@
+.header {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  background-color: #00318b;
+  text-align: center;
+  /* background-image: linear-gradient(#8459f9, #4c3196); */
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  color: #fff;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: lightpink;
+}
+.google-btn {
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  color: #000;
+}
+.main-container {
+  background: cadetblue;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 100%;
+  padding-bottom: 40px;
+}
+.inner-container {
+  width: 996px;
+  margin: 0 auto;
+  text-align: center;
+  background: lightyellow;
+  border-radius: 5px;
+  height: auto;
+  padding: 10px;
+}
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.form-control {
+  outline: none;
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid black;
+  padding: 5px;
+}
+.list-group {
+  list-style-type: none;
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.list-group-item .btn {
+  margin-left: unset;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #f00;
+  color: #fff;
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.todo-form .btn {
+  background: limegreen;
+  color: #ffffff;
+  padding: 5px 10px;
+  width: 60px;
+  border: 2px solid limegreen;
+  outline: none;
+  cursor: pointer;
+}
+.logout-btn {
+  background: darkorange;
+  width: 80px;
+  padding: 10px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid darkorange;
+  cursor: pointer;
+}
